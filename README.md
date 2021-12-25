@@ -1,11 +1,9 @@
-# Astro with Tailwind
+# Animations
 
-```
-npm init astro -- --template with-tailwindcss
-```
+animation collection created by artmade will add more every week.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/with-tailwindcss)
+[website link](https://animation.vercel.app)
 
-Astro comes with [Tailwind](https://tailwindcss.com) support out of the box. This example showcases how to style your Astro project with Tailwind.
+## 👀 Want to know more about me?
 
-For complete setup instructions, please see our [Styling Guide](https://docs.astro.build/guides/styling#-tailwind).
+Feel free to check my [Twitter](https://twitter.com/mouktarart) or [instagram](https://www.instagram.com/mouktarart/)
