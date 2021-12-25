@@ -1,0 +1,29 @@
+---
+// Component Imports
+import Globe from "/src/components/Globe.jsx";
+
+// Full Astro Component Syntax:
+// https://docs.astro.build/core-concepts/astro-components/
+---
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <title>Astro Christmas</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href={Astro.resolve("../styles/global.css")}
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-gradient-to-t from-red-700 to-red-900">
+    <Globe client:load />
+  </body>
+</html>
