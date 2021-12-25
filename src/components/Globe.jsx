@@ -52,10 +52,13 @@ const Globe = () => {
         merry christmas
       </h1>
       <div ref={(el) => (globe = el)}>
-        <div class=" relative flex justify-center items-center shadow-lg shadow-red-500/50 w-96 h-96 rounded-full overflow-hidden">
-          <div class="absolute h-full w-full backdrop-blur-sm bg-white/10 " />
+        <div class=" relative flex justify-center items-center shadow-lg shadow-red-500/50 w-96 h-96 rounded-full">
+          <div class="absolute h-full w-full backdrop-blur-sm bg-white/10 rounded-full" />
           <div class="absolute h-full w-full bg-gradient-radial-at-t rounded-full from-white to-transparent" />
-          <div id="snow" class="absolute h-full w-full"></div>
+          <div
+            id="snow"
+            class="absolute h-full w-full rounded-full overflow-hidden"
+          ></div>
           <svg
             class="h-24 w-24 z-10"
             viewBox="0 0 260 260"
