@@ -2,7 +2,7 @@
 
 animation collection created by artmade will add more every week.
 
-[website link](https://animation.vercel.app)
+[website link](https://animation-artmade.vercel.app)
 
 ## 👀 Want to know more about me?
 
